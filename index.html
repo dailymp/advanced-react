@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuri la Diferencia | Artista Musical Cubano</title>
+  <meta name="description" content="Yuri la Diferencia - Cantante y guitarrista cubano. Música que marca la diferencia. Contáctame para shows, colaboraciones y más.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Montserrat:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cuerdas de guitarra animadas de fondo -->
+  <div class="guitar-strings-bg" aria-hidden="true">
+    <div class="string string-1"></div>
+    <div class="string string-2"></div>
+    <div class="string string-3"></div>
+    <div class="string string-4"></div>
+    <div class="string string-5"></div>
+    <div class="string string-6"></div>
+  </div>
+
+  <!-- Notas musicales flotantes -->
+  <div class="floating-notes" aria-hidden="true">
+    <span class="note note-1">&#9835;</span>
+    <span class="note note-2">&#9833;</span>
+    <span class="note note-3">&#9839;</span>
+    <span class="note note-4">&#9834;</span>
+    <span class="note note-5">&#9835;</span>
+    <span class="note note-6">&#9833;</span>
+    <span class="note note-7">&#9834;</span>
+    <span class="note note-8">&#9839;</span>
+  </div>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-text">Yuri</span>
+      <span class="logo-accent">la Diferencia</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobre-mi">Sobre Mí</a></li>
+      <li><a href="#musica">Música</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto" class="nav-cta">Contáctame</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle reveal-up">Cantante &amp; Guitarrista Cubano</p>
+      <h1 class="hero-title">
+        <span class="title-line reveal-up">Yuri</span>
+        <span class="title-script reveal-up">la Diferencia</span>
+      </h1>
+      <p class="hero-tagline reveal-up">Donde cada cuerda cuenta una historia</p>
+      <div class="hero-buttons reveal-up">
+        <a href="#musica" class="btn btn-primary">
+          <span class="btn-icon">&#9835;</span> Escuchar Música
+        </a>
+        <a href="#contacto" class="btn btn-outline">
+          Contactar por WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Descubre más</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </header>
+
+  <!-- SOBRE MÍ -->
+  <section class="section section-about" id="sobre-mi">
+    <div class="section-guitar-ornament left" aria-hidden="true">
+      <svg viewBox="0 0 100 400" class="guitar-svg">
+        <ellipse cx="50" cy="120" rx="40" ry="55" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <ellipse cx="50" cy="280" rx="40" ry="55" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="50" cy="120" r="8" fill="none" stroke="currentColor" stroke-width="1"/>
+        <circle cx="50" cy="280" r="8" fill="none" stroke="currentColor" stroke-width="1"/>
+        <line x1="50" y1="0" x2="50" y2="65" stroke="currentColor" stroke-width="2"/>
+        <line x1="10" y1="200" x2="90" y2="200" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+    <div class="container">
+      <h2 class="section-title reveal-up">
+        <span class="title-decoration">&#9835;</span>
+        Sobre Mí
+        <span class="title-decoration">&#9835;</span>
+      </h2>
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <div class="image-frame">
+            <div class="image-placeholder">
+              <div class="placeholder-guitar-icon">
+                <svg viewBox="0 0 80 200" width="80" height="200">
+                  <ellipse cx="40" cy="80" rx="30" ry="40" fill="none" stroke="rgba(212,175,55,0.6)" stroke-width="2"/>
+                  <ellipse cx="40" cy="160" rx="30" ry="35" fill="none" stroke="rgba(212,175,55,0.6)" stroke-width="2"/>
+                  <circle cx="40" cy="80" r="6" fill="none" stroke="rgba(212,175,55,0.4)" stroke-width="1.5"/>
+                  <line x1="40" y1="0" x2="40" y2="40" stroke="rgba(212,175,55,0.6)" stroke-width="3"/>
+                  <line x1="25" y1="0" x2="55" y2="0" stroke="rgba(212,175,55,0.6)" stroke-width="2"/>
+                </svg>
+              </div>
+              <span>YURI</span>
+            </div>
+            <div class="frame-glow"></div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <h3>La música es mi lenguaje, la guitarra mi voz</h3>
+          <p>
+            Nacido en Cuba, crecí rodeado de ritmos que corren por las venas de mi isla.
+            Desde pequeño, la guitarra se convirtió en mi compañera inseparable — cada cuerda
+            vibra con la pasión del son, la melancolía del bolero y la energía de la música
+            que llevo dentro.
+          </p>
+          <p>
+            <strong>Yuri la Diferencia</strong> no es solo un nombre artístico, es una promesa:
+            traer algo único, auténtico y diferente a cada escenario, a cada canción, a cada
+            nota que sale de mis manos y mi voz.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="15">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Años de música</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="50">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Shows en vivo</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="20">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Canciones originales</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÚSICA -->
+  <section class="section section-music" id="musica">
+    <div class="music-bg-pattern" aria-hidden="true"></div>
+    <div class="container">
+      <h2 class="section-title reveal-up">
+        <span class="title-decoration">&#9839;</span>
+        Mi Música
+        <span class="title-decoration">&#9839;</span>
+      </h2>
+      <p class="section-subtitle reveal-up">Cada canción es un pedazo de mi alma cubana</p>
+
+      <div class="music-grid">
+        <div class="music-card reveal-up" style="--delay: 0.1s">
+          <div class="card-vinyl">
+            <div class="vinyl-disc">
+              <div class="vinyl-label">
+                <span>01</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>Cuerdas del Alma</h3>
+            <p class="card-genre">Son Cubano &bull; Balada</p>
+            <div class="card-preview">
+              <button class="play-btn" aria-label="Reproducir">
+                <span class="play-icon">&#9654;</span>
+              </button>
+              <div class="sound-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-card reveal-up" style="--delay: 0.2s">
+          <div class="card-vinyl">
+            <div class="vinyl-disc">
+              <div class="vinyl-label">
+                <span>02</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>La Habana en Mi Guitarra</h3>
+            <p class="card-genre">Trova &bull; Fusión</p>
+            <div class="card-preview">
+              <button class="play-btn" aria-label="Reproducir">
+                <span class="play-icon">&#9654;</span>
+              </button>
+              <div class="sound-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-card reveal-up" style="--delay: 0.3s">
+          <div class="card-vinyl">
+            <div class="vinyl-disc">
+              <div class="vinyl-label">
+                <span>03</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>Diferente</h3>
+            <p class="card-genre">Pop Latino &bull; Acústico</p>
+            <div class="card-preview">
+              <button class="play-btn" aria-label="Reproducir">
+                <span class="play-icon">&#9654;</span>
+              </button>
+              <div class="sound-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="music-card reveal-up" style="--delay: 0.4s">
+          <div class="card-vinyl">
+            <div class="vinyl-disc">
+              <div class="vinyl-label">
+                <span>04</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-info">
+            <h3>Noche de Son</h3>
+            <p class="card-genre">Son Montuno &bull; Rumba</p>
+            <div class="card-preview">
+              <button class="play-btn" aria-label="Reproducir">
+                <span class="play-icon">&#9654;</span>
+              </button>
+              <div class="sound-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="music-cta reveal-up">
+        <a href="#contacto" class="btn btn-primary btn-lg">
+          <span class="btn-icon">&#128190;</span> Adquiere Mi Música
+        </a>
+        <p class="cta-note">Escríbeme por WhatsApp para obtener mi catálogo completo</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="section section-gallery" id="galeria">
+    <div class="container">
+      <h2 class="section-title reveal-up">
+        <span class="title-decoration">&#9833;</span>
+        Galería
+        <span class="title-decoration">&#9833;</span>
+      </h2>
+      <p class="section-subtitle reveal-up">Momentos sobre el escenario</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-lg reveal-up" style="--delay: 0.1s">
+          <div class="gallery-placeholder">
+            <div class="gp-icon">&#127928;</div>
+            <span>En Concierto</span>
+          </div>
+          <div class="gallery-overlay">
+            <span>Yuri en vivo</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up" style="--delay: 0.2s">
+          <div class="gallery-placeholder">
+            <div class="gp-icon">&#127929;</div>
+            <span>Estudio</span>
+          </div>
+          <div class="gallery-overlay">
+            <span>En el estudio</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up" style="--delay: 0.3s">
+          <div class="gallery-placeholder">
+            <div class="gp-icon">&#127911;</div>
+            <span>Grabando</span>
+          </div>
+          <div class="gallery-overlay">
+            <span>Sesión de grabación</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up" style="--delay: 0.4s">
+          <div class="gallery-placeholder">
+            <div class="gp-icon">&#127926;</div>
+            <span>Backstage</span>
+          </div>
+          <div class="gallery-overlay">
+            <span>Detrás del escenario</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item-wide reveal-up" style="--delay: 0.5s">
+          <div class="gallery-placeholder">
+            <div class="gp-icon">&#127930;</div>
+            <span>Mi Guitarra y Yo</span>
+          </div>
+          <div class="gallery-overlay">
+            <span>Lo que más amo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS / LO QUE OFREZCO -->
+  <section class="section section-services">
+    <div class="container">
+      <h2 class="section-title reveal-up">
+        <span class="title-decoration">&#9835;</span>
+        Lo Que Ofrezco
+        <span class="title-decoration">&#9835;</span>
+      </h2>
+      <div class="services-grid">
+        <div class="service-card reveal-up" style="--delay: 0.1s">
+          <div class="service-icon">&#127928;</div>
+          <h3>Shows en Vivo</h3>
+          <p>Presentaciones para eventos, fiestas, bodas y celebraciones con la mejor música cubana en vivo.</p>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.2s">
+          <div class="service-icon">&#127897;</div>
+          <h3>Música Original</h3>
+          <p>Canciones propias disponibles en formato digital. Música auténtica cubana para tu colección.</p>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.3s">
+          <div class="service-icon">&#127932;</div>
+          <h3>Colaboraciones</h3>
+          <p>Abierto a colaboraciones musicales, fusiones de géneros y proyectos artísticos creativos.</p>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.4s">
+          <div class="service-icon">&#127908;</div>
+          <h3>Serenatas</h3>
+          <p>Serenatas personalizadas para momentos especiales. Regala música, regala emociones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-contact" id="contacto">
+    <div class="container">
+      <h2 class="section-title reveal-up">
+        <span class="title-decoration">&#9834;</span>
+        Contáctame
+        <span class="title-decoration">&#9834;</span>
+      </h2>
+      <p class="section-subtitle reveal-up">¿Quieres contratarme o adquirir mi música? ¡Escríbeme!</p>
+
+      <div class="contact-content">
+        <div class="contact-card reveal-up">
+          <div class="contact-whatsapp">
+            <div class="whatsapp-icon-large">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="60" height="60">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+            <h3>Escríbeme por WhatsApp</h3>
+            <p>La forma más rápida de contactarme para shows, música y colaboraciones</p>
+            <a href="https://wa.me/666631882" class="btn btn-whatsapp" id="whatsappBtn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Chatear por WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-info reveal-up">
+          <div class="info-item">
+            <span class="info-icon">&#127926;</span>
+            <div>
+              <h4>Para Shows y Eventos</h4>
+              <p>Contáctame para presentaciones en vivo, fiestas y eventos especiales</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">&#127925;</span>
+            <div>
+              <h4>Compra Mi Música</h4>
+              <p>Obtén mis canciones originales en formato digital directamente</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">&#129309;</span>
+            <div>
+              <h4>Colaboraciones</h4>
+              <p>¿Eres músico o productor? Hablemos de hacer música juntos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-strings" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">Yuri <em>la Diferencia</em></span>
+          <p>Cantante &amp; Guitarrista Cubano</p>
+        </div>
+        <div class="footer-social">
+          <p>Sígueme en redes</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <span>IG</span>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <span>FB</span>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <span>YT</span>
+            </a>
+            <a href="#" class="social-link" aria-label="TikTok">
+              <span>TK</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Yuri la Diferencia. Todos los derechos reservados.</p>
+        <p class="footer-quote">"La música es el alma que no se puede tocar, pero se siente"</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/666631882" class="whatsapp-float" id="whatsappFloat" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-pulse"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
